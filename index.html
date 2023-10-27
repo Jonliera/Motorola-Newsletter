@@ -55,6 +55,63 @@
       text-align: center;
     }
 
+    .three-columns {
+      text-align: center;
+      font-size: 0;
+      padding: 15px 0 25px;
+    }
+
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+    }
+
+    .three-columns .padding {
+      padding: 15px;
+
+    }
+
+    .three-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0 5px;
+    }
+
+    .two-columns.last {
+      padding: 15px 0;
+
+    }
+
+    .two-columns .padding {
+      padding: 20px;
+    }
+
+    .two-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      text-align: left;
+    }
+
+    .button {
+      background-color: #ffffff;
+      color: #171a1b;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: ;
+    }
+
+    .button-dark {
+      background-color: #171a1b;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: ;
+    }
 
     /* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
@@ -88,7 +145,12 @@
                 <table class="column">
                   <tr>
                     <td style="padding: 0 20px 0 20px;">
-                      <a href="https://www.roregoods.com"><img src="img/pexels-frank-cone-2235130.jpg" alt="Fire Logo" width="180" title="Fire Logo"></a>
+                      <a href="https://www.roregoods.com">
+                        <div style="border-radius: 10px; overflow: hidden;">
+                          <img src="img/pexels-frank-cone-2235130.jpg" alt="Fire Logo" width="180" title="Fire Logo">
+                        </div>
+                      </a>
+
                     </td>
                   </tr>
                 </table>
@@ -113,16 +175,140 @@
 
       <!-- START BANNER IMAGE  -->
       <tr>
-        <td><a href="" https://www.roregoods.com""><img src="img/frederik-lipfert-y67dwfB2AiM-unsplash.jpg" alt="iphone" width="600" style="max-width: 100;"></a></td>
+        <td><a href=" https://www.roregoods.com"><img src="img/frederik-lipfert-y67dwfB2AiM-unsplash.jpg" alt="iphone" width="600" style="max-width: 100%;"></a></td>
       </tr>
 
       <!-- END  BANNER IMAGE  -->
 
       <!-- START THREE COLUMN SECTION  -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td class="three-columns">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href="https://www.roregoods.com"><img src="img/dog.jpg" alt="dog" width="130" style="max-width: 130px;"></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p style="font-weight: bold; font-size: 17px;">Ecommerce</px>
+                            <p> We love to have you be part of Rore. Welcome to the Movement!</p>
+                          </td>
+                        </tr>
+
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href="https://www.roregoods.com"><img src="img/dog.jpg" alt="dog" width="130" style="max-width: 130px;"></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p style="font-weight: bold; font-size: 17px;">Design</px>
+                            <p> We love to have you be part of Rore. Welcome to the Movement!</p>
+                          </td>
+                        </tr>
+
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href="https://www.roregoods.com"><img src="img/dog.jpg" alt="dog" width="130" style="max-width: 130px;"></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p style="font-weight: bold; font-size: 17px;">Email Campaigns</px>
+                            <p> We love to have you be part of Rore. Welcome to the Movement!</p>
+                          </td>
+                        </tr>
+
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
       <!-- END THREE COLUMN SECTION  -->
 
       <!-- START TWO COLUMN SECTION  -->
+      <tr>
+        <td style="background-color: #26292b; color: #ffffff;">
+          <table width="100%">
+            <tr>
+              <td class="two-columns last">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href=""><img src="img/gilles-lambert-pb_lF8VWaPU-unsplash (1).jpg" alt="" width="260" style="max-width: 260px;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <p style="font-weight: bold; font-size: 18px;">Create Custom Designs</p>
+                            <p style="padding-bottom: 16px;">We help you get ahead of the market. We know your audience, let's tackles this </p>
+                            <a href="https://www.roregoods.com" class="button">Shop our Goods</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
       <!-- END TWO COLUMN SECTION  -->
+      <!-- START TITLE, TEXT & BUTTON  -->
+      <tr>
+        <td style="padding: 15px 0 15px;">
+          <table width="100%">
+            <tr>
+              <td style="text-align: center; padding: 15px;">
+                <p style="font-size: 20px; font-weight: bold;">Our goods are high quality, and awesome!</p>
+                <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque enim ratione veniam sequi molestias saepe dolorum debitis? In officiis deserunt ut corrupti amet minima dolorem veritatis, eligendi magni iste.</p>
+                <a href="https://www.roregoods.com" class="button-dark">Shop our Goods</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- FINISH TITLE, TEXT & BUTTON  -->
+
 
       <!-- START FOOTER -->
       <!-- END FOOTER -->
